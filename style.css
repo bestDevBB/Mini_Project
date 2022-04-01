@@ -1,0 +1,31 @@
+html, body {
+    text-align: center;
+    margin: 0;
+}
+
+.clock {
+    border: 0;
+    border-radius: 10px;
+    width: 400px;
+    margin: 10px auto;
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    background-color: #AFEEEE;
+}
+
+.container button {
+    font-size: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 3px;
+    width: 60px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.container button:active {
+    transform: scale(0.98);
+}
